@@ -1,0 +1,719 @@
+{
+	"info": {
+		"_postman_id": "084d9bc7-8214-44bd-b54a-457b674ddaf0",
+		"name": "Project4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24510855"
+	},
+	"item": [
+		{
+			"name": "{{url}}/categories/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/categories/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/396",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstname\": \"Erika\",\r\n  \"lastname\": \"Bassi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/382",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstname\": \"Fernanda\",\r\n  \"lastname\": \"Teixeira\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/360",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstname\": \"Ultima\",\r\n  \"lastname\": \"School\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/380",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/380",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"380"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/381",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/customers/381",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"381"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/382",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/customers/382",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"382"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/360",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/customers/360",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"360"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/360",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/360",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"360"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/360",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/360",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"360"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/381",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/customers/381",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"381"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/customers/345",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/customers/345",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"customers",
+						"345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/products/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/products/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/products/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Laranjas\",\r\n  \"price\": 4.99,\r\n  \"category_url\": \"/shop/categories/Fruits\",\r\n  \"vendor_url\": \"/shop/vendors/672\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/products/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/products/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Bananas\",\r\n  \"price\": 4.99,\r\n  \"category_url\": \"/shop/categories/Fruits\",\r\n  \"vendor_url\": \"/shop/vendors/672\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/products/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/products/Bananas",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/products/110",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						"110"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/products/Laranjas",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/products/107",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						"107"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/products/Laranjas",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/products/Laranjas",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						"Laranjas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
