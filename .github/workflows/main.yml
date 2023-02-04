@@ -8,14 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/node16
 
 
       # INstall Node on the runner
       - name: Install Node
-        uses: actions/setup-node@v1
+        uses: actions/node16
         with:
-          node-version: "12.x"
+          node-version: 'node16'
 
 
       # Install the newman command line utility and also install the html extra reporter
