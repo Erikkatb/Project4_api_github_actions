@@ -1,4 +1,4 @@
-name: Test-API-newman
+name: Project4_api_github_actions
 on:
   push:
     branches:
